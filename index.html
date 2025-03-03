@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>BB Circular</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<meta name="google-site-verification" content="4C1KJ_aoT-dvOnkVDQuXBJUiCe3oUkRbAie2P6Tf1v0" />
-<title>BB Circular</title>
+<meta name="google-site-verification" content="4C1KJ_aoT-dvOnkVDQuXBJUiCe3oUkRbAie2P6Tf1v0">
 <!-- Google Font CDN -->
 
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
@@ -22,8 +21,7 @@
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
+
 .font-poppins {
         font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
@@ -38,13 +36,13 @@ body {font-size:16px;}
     <h3 class="w3-padding-64"><b>Banking<br>Circular</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#hom" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#gbd" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">General Banking</a> 
     <a href="#cod" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Credit Operations</a> 
     <a href="#ftd" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Foreign Trade</a> 
     <a href="#bod" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Branch Operations</a> 
     <a href="#hod" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Head Office</a>
-    <a href="#bbc" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">BB Circular</a>
+    <a href="#bbc" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">The Circulars</a>
   </div>
 </nav>
 
@@ -61,35 +59,17 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="gbd">
-    <h1 class="w3-jumbo"><b>The Banking Circular</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>General Banking.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-  </div>
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="gbd">
+      <h1 class="w3-xxxlarge w3-text-red"><b>General Banking.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+      <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
   
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
-
-    <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
-  </div>
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
 
   <!-- Services -->
   <div class="w3-container" id="cod" style="margin-top:75px">
