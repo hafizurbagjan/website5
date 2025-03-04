@@ -38,3 +38,15 @@ p.sub {
 .blink {
   animation: blink 1s infinite;
 }
+/* Department Section*/
+.department {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+  margin-left: 20px;
+}

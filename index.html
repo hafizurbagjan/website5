@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>BB Circular</title>
+<title>BB Circulars</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <meta name="google-site-verification" content="4C1KJ_aoT-dvOnkVDQuXBJUiCe3oUkRbAie2P6Tf1v0">
-<!-- Google Font CDN -->
-
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
 <!-- DaisyUI CDN -->
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css"/>><!-- Factor-->
 <link href="styles/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- For Home Icon--><!-- For Search Icon-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!-- Factor-->
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
-
-.font-poppins {
-        font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      }
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
 </style>
 </head>
 <body>
@@ -33,23 +29,23 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Banking<br>Circular</b></h3>
+    <h3 class="w3-padding-64"><b>Hafizur<br>Rahman</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#hom" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#gbd" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">General Banking</a> 
-    <a href="#cod" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Credit Operations</a> 
-    <a href="#ftd" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Foreign Trade</a> 
-    <a href="#bod" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Branch Operations</a> 
-    <a href="#hod" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Head Office</a>
-    <a href="#bbc" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">The Circulars</a>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#gb" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">General Banking</a> 
+    <a href="#cr" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Credit Operations</a> 
+    <a href="#ft" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Foreign Trade</a> 
+    <a href="#bo" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Branch Operations</a> 
+    <a href="#ho" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Head Office</a>
+    <a href="#bc" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Banking Circular</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>The Banking Circular</span>
+  <span>Company Name</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -59,68 +55,424 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-    <!-- Header -->
-    <div class="w3-container" style="margin-top:80px" id="gbd">
-      <h1 class="w3-xxxlarge w3-text-red"><b>General Banking.</b></h1>
-      <hr style="width:50px;border:5px solid red" class="w3-round">
-      <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-      <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-    </div>
-  
+  <div class="w3-container" style="margin-top:80px" id="gb">
+    <h1 class="w3-jumbo"><b>The Banking Circular</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>General Banking.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <div class="department">
+      <h1>General Banking System in Bangladesh</h1>
+      <p>The general banking system in Bangladesh refers to the core banking functions that commercial banks provide to individuals, businesses, and organizations. It includes services such as account opening, cash transactions, fund transfers, cheque clearing, remittances, and other financial services.</p>
+      
+      <h2>1. Account Services</h2>
+      <ul>
+          <li><strong>Savings Account</strong> – For individual depositors with a limit on transactions.</li>
+          <li><strong>Current Account</strong> – For businesses and frequent transactions.</li>
+          <li><strong>Fixed Deposit Account (FDR)</strong> – Deposits for a fixed period at higher interest rates.</li>
+          <li><strong>Recurring Deposit Account</strong> – Customers deposit a fixed amount every month for a specific term.</li>
+      </ul>
 
-  <!-- Services -->
-  <div class="w3-container" id="cod" style="margin-top:75px">
+      <h2>2. Cash Transactions</h2>
+      <ul>
+          <li>Cash Deposit</li>
+          <li>Cash Withdrawal</li>
+          <li>Cheque Transactions</li>
+      </ul>
+
+      <h2>3. Clearing and Collection of Cheques</h2>
+      <p>Banks process cheques through the <strong>Bangladesh Automated Clearing House (BACH)</strong> under <strong>Bangladesh Bank</strong>.</p>
+
+      <h2>4. Fund Transfers</h2>
+      <ul>
+          <li><strong>BEFTN</strong> – Electronic transfer of funds between banks.</li>
+          <li><strong>RTGS</strong> – Instant large-value transactions.</li>
+          <li><strong>Online Banking & Mobile Banking</strong> – Internet-based fund transfers.</li>
+      </ul>
+
+      <h2>5. Remittance Services</h2>
+      <ul>
+          <li>Inward Remittance – Foreign currency sent to Bangladesh.</li>
+          <li>Outward Remittance – Sending money abroad.</li>
+      </ul>
+
+      <h2>6. ATM, Debit, and Credit Card Services</h2>
+      <p>Banks provide ATMs, debit, and credit cards for convenient transactions.</p>
+
+      <h2>7. Internet and Mobile Banking</h2>
+      <p>Most banks now offer digital services for checking balances, paying bills, and transferring funds.</p>
+
+      <h2>8. Loan and Advance Services</h2>
+      <ul>
+          <li>Personal Loans</li>
+          <li>Home Loans</li>
+          <li>Car Loans</li>
+          <li>Business Loans</li>
+      </ul>
+
+      <h2>9. Foreign Exchange and Trade Services</h2>
+      <ul>
+          <li>Letter of Credit (LC)</li>
+          <li>Foreign Currency Exchange</li>
+          <li>Export & Import Transactions</li>
+      </ul>
+
+      <h2>10. Compliance and Security Measures</h2>
+      <ul>
+          <li>Know Your Customer (KYC)</li>
+          <li>Anti-Money Laundering (AML) Policies</li>
+          <li>Cybersecurity Measures</li>
+      </ul>
+
+      <h2>Regulation and Governance</h2>
+      <p>The <strong>Bangladesh Bank</strong> regulates all commercial banks under the <strong>Banking Companies Act 1991</strong>.</p>
+
+      <h2>Conclusion</h2>
+      <p>The general banking system in Bangladesh plays a vital role in financial and economic development, ensuring smooth banking operations and digital transactions.</p>
+  </div>
+  </div>
+  
+  <!-- Credit Operations -->
+  <div class="w3-container" id="cr" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Credit Operations.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+      <div class="department">
+        <h1>Loan System in Bangladesh</h1>
+        <p>The loan system in Bangladesh is regulated by the <strong>Bangladesh Bank</strong>, which oversees all financial institutions and ensures compliance with banking laws and policies. Banks and Non-Banking Financial Institutions (NBFIs) provide different types of loans to individuals, businesses, and organizations.</p>
+        
+        <h2>1. Types of Loans in Bangladesh</h2>
+        
+        <h3>A. Personal Loans</h3>
+        <ul>
+            <li>Salary Loans</li>
+            <li>Home Loans</li>
+            <li>Car Loans</li>
+            <li>Education Loans</li>
+            <li>Medical Loans</li>
+        </ul>
+        
+        <h3>B. Business Loans</h3>
+        <ul>
+            <li>Working Capital Loans</li>
+            <li>Term Loans</li>
+            <li>Trade Finance Loans</li>
+            <li>SME Loans</li>
+            <li>Women Entrepreneur Loans</li>
+        </ul>
+        
+        <h3>C. Agricultural and Rural Loans</h3>
+        <ul>
+            <li>Crop Loans</li>
+            <li>Livestock & Fisheries Loans</li>
+            <li>Microfinance Loans</li>
+        </ul>
+        
+        <h3>D. Industrial and Corporate Loans</h3>
+        <ul>
+            <li>Large Industrial Loans</li>
+            <li>Infrastructure Loans</li>
+            <li>Export Credit</li>
+        </ul>
+        
+        <h2>2. Loan Process in Bangladesh</h2>
+        <ul>
+            <li>Application</li>
+            <li>Credit Assessment</li>
+            <li>Loan Approval</li>
+            <li>Disbursement</li>
+            <li>Repayment</li>
+        </ul>
+        
+        <h2>3. Interest Rates and Repayment Terms</h2>
+        <p>Interest rates are set by individual banks but regulated by <strong>Bangladesh Bank</strong>. Rates vary based on loan type, borrower profile, and economic conditions. Loan tenure can range from <strong>6 months to 30 years</strong>, depending on the loan category.</p>
+        
+        <h2>4. Regulations and Policies</h2>
+        <ul>
+            <li>Banking Companies Act 1991</li>
+            <li>Microcredit Regulatory Authority (MRA)</li>
+            <li>Prudential Guidelines for Banks</li>
+            <li>Bangladesh Bank Risk-Based Capital Adequacy Framework</li>
+        </ul>
+        
+        <h2>5. Loan Default and Recovery</h2>
+        <ul>
+            <li>Non-Performing Loans (NPLs)</li>
+            <li>Loan Rescheduling</li>
+            <li>Legal Action</li>
+        </ul>
+        
+        <h2>Conclusion</h2>
+        <p>The loan system in Bangladesh plays a critical role in economic growth by providing financial support to individuals and businesses. With strict regulations and various loan products, banks aim to promote responsible lending and financial inclusion.</p>
+    </div>
   </div>
   
-  <!-- Designers -->
-  <div class="w3-container" id="ftd" style="margin-top:75px">
+  <!-- Foreign Trade -->
+  <div class="w3-container" id="ft" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Foreign Trade.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>The best team in the world.</p>
-    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+      <div class="department">
+        <h1>Foreign Trade System in Bangladesh</h1>
+        <p>The foreign trade system in Bangladesh is regulated by the <strong>Bangladesh Bank</strong> and the <strong>Ministry of Commerce</strong>. The country's trade policies aim to promote exports and regulate imports for economic growth.</p>
+        
+        <h2>1. Key Components of Foreign Trade</h2>
+        <h3>A. Export System</h3>
+        <ul>
+            <li>Readymade Garments (RMG) Industry</li>
+            <li>Agricultural and Jute Products</li>
+            <li>Leather and Footwear</li>
+            <li>Pharmaceuticals</li>
+            <li>Information Technology Services</li>
+        </ul>
+        
+        <h3>B. Import System</h3>
+        <ul>
+            <li>Machinery and Equipment</li>
+            <li>Fuels and Petroleum Products</li>
+            <li>Raw Materials for Industries</li>
+            <li>Consumer Goods</li>
+            <li>Electronics and Vehicles</li>
+        </ul>
+        
+        <h2>2. Trade Regulations and Policies</h2>
+        <ul>
+            <li>Import Policy Order and Export Policy Order</li>
+            <li>Bangladesh Tariff Structure</li>
+            <li>Foreign Exchange Regulations</li>
+            <li>Bangladesh Economic Zones Authority (BEZA) Policies</li>
+            <li>Special Incentives for Exporters</li>
+        </ul>
+        
+        <h2>3. Trade Agreements and Partnerships</h2>
+        <ul>
+            <li>South Asian Free Trade Area (SAFTA)</li>
+            <li>Asia-Pacific Trade Agreement (APTA)</li>
+            <li>Generalized System of Preferences (GSP)</li>
+            <li>Bangladesh-European Union Trade Relations</li>
+            <li>Bangladesh-China and Bangladesh-India Trade Agreements</li>
+        </ul>
+        
+        <h2>4. Challenges in Foreign Trade</h2>
+        <ul>
+            <li>Trade Deficit and Balance of Payments Issues</li>
+            <li>Infrastructure and Logistics Constraints</li>
+            <li>Customs and Bureaucratic Hurdles</li>
+            <li>Fluctuations in Exchange Rates</li>
+            <li>Global Market Competitiveness</li>
+        </ul>
+        
+        <h2>Conclusion</h2>
+        <p>The foreign trade system in Bangladesh is vital to its economic growth, with exports and imports playing a key role in industrial development. Continuous improvements in trade policies and global partnerships are essential for sustainable growth.</p>
+    </div>
   </div>
 
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="bod" style="margin-top:75px">
+  <!-- Branch Operations -->
+  <div class="w3-container" id="bo" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Branch Operations.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-  </div>
+    <h1>Bank Branch Operations in Bangladesh</h1>
+    <p>In Bangladesh, bank branch operations are regulated by the <strong>Bangladesh Bank (BB)</strong>, the country's central bank. Banks operate under the <strong>Bank Companies Act 1991</strong>, which governs their functions, services, and compliance requirements.</p>
+    
+    <h2>1. Core Functions of a Bank Branch</h2>
+    <h3>a) Deposit Services</h3>
+    <ul>
+        <li>Savings Accounts</li>
+        <li>Current Accounts</li>
+        <li>Fixed Deposit Receipts (FDR)</li>
+        <li>Recurring Deposit Accounts</li>
+        <li>Special Deposit Schemes (Pension Scheme, Monthly Savings, etc.)</li>
+    </ul>
 
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="hod" style="margin-top:75px">
+    <h3>b) Loan and Credit Services</h3>
+    <ul>
+        <li>Personal Loans</li>
+        <li>Home Loans</li>
+        <li>SME (Small and Medium Enterprise) Loans</li>
+        <li>Agricultural Loans</li>
+        <li>Corporate and Industrial Loans</li>
+        <li>Car Loans</li>
+        <li>Credit Cards and Overdraft Facilities</li>
+    </ul>
+
+    <h3>c) Payment and Remittance Services</h3>
+    <ul>
+        <li>Electronic Fund Transfers (BEFTN, RTGS)</li>
+        <li>Mobile Financial Services (bKash, Nagad, Rocket, etc.)</li>
+        <li>Swift Transfers (International Remittance)</li>
+        <li>Payroll and Pension Disbursements</li>
+        <li>Bill Payments (Electricity, Water, Gas, etc.)</li>
+    </ul>
+
+    <h3>d) Trade and Foreign Exchange Services</h3>
+    <ul>
+        <li>Issuance of Letter of Credit (LC)</li>
+        <li>Import and Export Financing</li>
+        <li>Foreign Exchange Transactions</li>
+        <li>Handling Foreign Currency Accounts</li>
+        <li>Processing Student Files for Foreign Study Payments</li>
+    </ul>
+
+    <h3>e) Digital Banking Services</h3>
+    <ul>
+        <li>Online and Mobile Banking</li>
+        <li>ATM and POS Transactions</li>
+        <li>E-commerce Payments</li>
+        <li>Internet Banking Transfers</li>
+    </ul>
+
+    <h2>2. Regulatory and Compliance Requirements</h2>
+    <ul>
+        <li><strong>Bangladesh Bank Guidelines</strong>: All banks must follow BB regulations.</li>
+        <li><strong>Anti-Money Laundering (AML) & Know Your Customer (KYC)</strong>: Banks must verify customer identity.</li>
+        <li><strong>Interest Rate & Loan Classification</strong>: BB controls lending rates.</li>
+        <li><strong>Corporate Governance</strong>: Banks must maintain transparency.</li>
+    </ul>
+
+    <h2>3. Challenges in Bank Branch Operations</h2>
+    <ul>
+        <li>Slow Digital Transformation</li>
+        <li>Cybersecurity Risks</li>
+        <li>Regulatory Compliance Updates</li>
+        <li>High Non-Performing Loans (NPLs)</li>
+        <li>Competition from Fintech & Mobile Banking</li>
+    </ul>
+
+    <h2>4. Future Trends in Branch Banking</h2>
+    <ul>
+        <li>Increased Automation</li>
+        <li>Agent Banking Expansion</li>
+        <li>Green Banking Initiatives</li>
+        <li>Blockchain & AI Adoption</li>
+    </ul>
+  </div>
+  
+  <!-- Head Office -->
+  <div class="w3-container" id="ho" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Head Office.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+    <h1>Bank Head Office Operations in Bangladesh</h1>
+    <p>In Bangladesh, bank head offices oversee overall banking operations and are regulated by the <strong>Bangladesh Bank (BB)</strong>, the country's central bank. Banks operate under the <strong>Bank Companies Act 1991</strong>, which governs their functions, policies, and compliance requirements.</p>
+    
+    <h2>1. Core Functions of a Bank Head Office</h2>
+    <h3>a) Strategic Management</h3>
+    <ul>
+        <li>Formulation of banking policies and strategies</li>
+        <li>Supervision of branch operations</li>
+        <li>Risk management and compliance</li>
+    </ul>
+
+    <h3>b) Financial and Investment Management</h3>
+    <ul>
+        <li>Capital management and fund allocation</li>
+        <li>Investment planning and portfolio management</li>
+        <li>Maintaining liquidity and financial stability</li>
+    </ul>
+
+    <h3>c) Regulatory and Compliance Functions</h3>
+    <ul>
+        <li>Ensuring adherence to Bangladesh Bank regulations</li>
+        <li>Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance</li>
+        <li>Corporate governance and ethical banking practices</li>
+    </ul>
+
+    <h3>d) Digital Banking and IT Infrastructure</h3>
+    <ul>
+        <li>Development and implementation of digital banking solutions</li>
+        <li>Cybersecurity and data protection</li>
+        <li>Enhancing customer experience through technology</li>
+    </ul>
+
+    <h3>e) Human Resource and Administration</h3>
+    <ul>
+        <li>Staff training and development</li>
+        <li>Performance evaluation and promotions</li>
+        <li>Workforce planning and HR policies</li>
+    </ul>
+
+    <h2>2. Challenges in Bank Head Office Operations</h2>
+    <ul>
+        <li>Regulatory changes and policy compliance</li>
+        <li>Cybersecurity threats and digital banking risks</li>
+        <li>High competition and technological advancements</li>
+        <li>Managing non-performing loans (NPLs)</li>
+        <li>Economic and financial instability</li>
+    </ul>
+
+    <h2>3. Future Trends in Head Office Banking Operations</h2>
+    <ul>
+        <li>Artificial Intelligence (AI) for risk management</li>
+        <li>Blockchain technology for secure transactions</li>
+        <li>Increased investment in fintech collaborations</li>
+        <li>Advanced data analytics for decision-making</li>
+        <li>Green banking and sustainable finance</li>
+    </ul>
   </div>
 
-
-  <!-- Contact -->
-  <div class="w3-container" id="bbc" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Bangladesh Bank <span class="text-bike-primary">Circular</span></b></h1>
+  <!-- Banking Circular -->
+  <div class="w3-container" id="bc" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Banking Circular.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details : We love meeting new people!</p>
+
+    <h1>Bangladesh Bank Circulars</h1>
+    <p>Bangladesh Bank, the central bank of Bangladesh, issues circulars to provide regulatory guidelines, policy updates, and instructions to financial institutions operating in the country. These circulars ensure proper banking governance and compliance with financial regulations.</p>
+    
+    <h2>1. Types of Bangladesh Bank Circulars</h2>
+    <h3>a) Monetary Policy Circulars</h3>
+    <ul>
+        <li>Guidelines on interest rates and liquidity management</li>
+        <li>Inflation control and monetary policy adjustments</li>
+        <li>Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR) requirements</li>
+    </ul>
+
+    <h3>b) Prudential Regulation Circulars</h3>
+    <ul>
+        <li>Loan classification and provisioning requirements</li>
+        <li>Capital adequacy and risk management guidelines</li>
+        <li>Basel III implementation framework</li>
+    </ul>
+
+    <h3>c) Anti-Money Laundering (AML) and Compliance Circulars</h3>
+    <ul>
+        <li>KYC (Know Your Customer) and Customer Due Diligence (CDD) guidelines</li>
+        <li>Suspicious Transaction Reporting (STR) requirements</li>
+        <li>Compliance with international financial crime prevention measures</li>
+    </ul>
+
+    <h3>d) Foreign Exchange and Trade Finance Circulars</h3>
+    <ul>
+        <li>Regulations on import and export transactions</li>
+        <li>Foreign currency account management</li>
+        <li>Guidelines on remittance and foreign direct investment</li>
+    </ul>
+
+    <h3>e) Digital Banking and Fintech Circulars</h3>
+    <ul>
+        <li>Regulations on mobile banking and agent banking</li>
+        <li>Cybersecurity standards and data protection policies</li>
+        <li>Fintech innovation and digital payment system guidelines</li>
+    </ul>
+
+    <h2>2. Importance of Bangladesh Bank Circulars</h2>
+    <ul>
+        <li>Ensure financial stability and sound banking practices</li>
+        <li>Protect consumer rights and financial security</li>
+        <li>Prevent money laundering and financial crimes</li>
+        <li>Promote transparency and efficiency in banking operations</li>
+        <li>Facilitate economic growth and investment</li>
+    </ul>
+
+    <h2>3. Recent Developments in Bangladesh Bank Circulars</h2>
+    <ul>
+        <li>Updates on SME loan restructuring policies</li>
+        <li>Guidelines for sustainable and green banking initiatives</li>
+        <li>Enhanced cybersecurity measures for digital banking</li>
+        <li>Revised policies on foreign exchange transactions</li>
+        <li>Support measures for post-pandemic economic recovery</li>
+    </ul>
+
   </div>
-
+  <div class="w3-container" id="bc" style="margin-top:15px">
+    <h1 class="w3-xxxlarge w3-text-red" style="text-align: center;margin-bottom:-15px">Explore the Circulars below!!!</h1>
+  </div>
 <!-- End page content -->
-<main class="md:container mx-auto"> <!-- Main Section -->
-    <section></section><!-- featured bike section - Homework -->
-    <!-- Happy Clients Happy Homework -->
-    <section></section>
-
+<main class="md:container mx-auto"> <!-- Circular Section -->
     <section class="my-24"> <!-- Beginning of Circular Section -->
       <div class="container"> <!---- Beginning of Circular Section Body --->
         <div class="panel-group" id="accordion1"> <!---- Beginning of Accordion1 --->
@@ -4567,7 +4919,7 @@ vvhdshvhdsbvhhvsbhvsdh kjg jdsk kdg jkd gfjdg
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://hafizurbagjan.github.io/website5" title="W3.CSS" target="_blank" class="w3-hover-opacity">Md. Hafizur Rahman</a></p></div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">Md. Hafizur Rahman</a></p></div>
 
 <script>
 // Script to open and close sidebar
